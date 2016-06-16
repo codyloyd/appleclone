@@ -1,0 +1,53 @@
+#pagecontainer{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+
+#topsection {
+	display: flex;
+	width: 100%;
+	background: url(your_verse_hero.jpg) 50% 100% no-repeat;
+	flex-direction: column;
+}
+
+#menubarcontainer {
+	width: 100%;
+	height: 54px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#menubar {
+	width: 77%;
+	height: 36px;
+	background: #34e5fd;
+}
+
+#maintext {
+	width: 100%;
+	height: 484px;
+}
+
+#bottomsection {
+	width: 100%;
+	height: 200px;
+	background: #7a7cb9;
+	display: flex;
+}
+
+.bottomblock {
+	width: 25%;
+	height: 100%;
+	background: #ac1ee5;
+	box-sizing: border-box;
+	border: 1px solid white;
+
+}
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background: #006c48;
+}
